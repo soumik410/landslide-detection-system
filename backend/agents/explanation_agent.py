@@ -1,8 +1,3 @@
-"""
-Final synthesis step: combines the deterministic risk assessment plus every sub-agent's
-output into one coherent, human-readable explanation for the end user / alert message.
-This agent explains the risk score -- it never changes it.
-"""
 from agents.llm_client import call_llm
 
 SYSTEM_PROMPT = (
