@@ -1,4 +1,3 @@
-"""Checks current readings against historical/regional landslide-incident patterns (RAG-grounded)."""
 from agents.rag_agent import run as rag_run
 
 
