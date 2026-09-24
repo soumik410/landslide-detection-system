@@ -1,0 +1,32 @@
+# Environment / API secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# RAG / vector databases
+chroma/
+chroma_db/
+vector_store/
+
+# Temporary files
+*.tmp
