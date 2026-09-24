@@ -1,4 +1,3 @@
-"""Thin shared wrapper around the Anthropic API so every agent calls the LLM the same way."""
 from functools import lru_cache
 from config.settings import settings
 
