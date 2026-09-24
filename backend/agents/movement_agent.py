@@ -1,4 +1,3 @@
-"""Interprets IMU (tilt + vibration) and displacement data for signs of ground movement."""
 from agents.llm_client import call_llm
 
 SYSTEM_PROMPT = (
