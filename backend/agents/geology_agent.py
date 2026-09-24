@@ -1,4 +1,3 @@
-"""Explains current readings in light of general slope-stability / geology reference material (RAG-grounded)."""
 from agents.rag_agent import run as rag_run
 
 
